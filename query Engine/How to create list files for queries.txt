@@ -1,0 +1,2 @@
+bin/hadoop jar ~/pro.jar org.apache.hadoop.examples.extract_for_queries genres genres_list movies_test year_list title_to_ids titles_list actors_name_ids person_list words_titles_list words_person_list 
+#bin/hadoop dfs -rmr genres_list year_list titles_list person_list words_titles_list words_person_list 
